@@ -1,4 +1,4 @@
-# 🍕 Bella Cucina — Full Stack Restaurant Website
+#  Bella Cucina — Full Stack Restaurant Website
 
 A complete, professional food delivery website built with React + Node.js + MongoDB.
 
@@ -166,4 +166,4 @@ npm run build
 
 ---
 
-Made with ❤️ by Claude for Bella Cucina 🍕
+Made with ❤️ by Zohaib Khan
