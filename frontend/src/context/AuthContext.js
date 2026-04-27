@@ -11,6 +11,7 @@ export const AuthProvider = ({ children }) => {
   });
 
   const login = async (email, password) => {
+    axios.defaults.baseURL = process.env.REACT_APP_API_URL || '';
     const { data } = await axios.post('/api/auth/login', { email, password });
     setUser(data);
     localStorage.setItem('bellaCucinaUser', JSON.stringify(data));
