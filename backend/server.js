@@ -64,7 +64,7 @@ app.use((err, req, res, next) => {
 });
 
 // ── DATABASE ──
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI || process.env.MONGO_URL)
   .then(() => {
     console.log('✅ MongoDB Connected');
     app.listen(process.env.PORT || 5000, () => {
