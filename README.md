@@ -1,11 +1,10 @@
-# 🍕 Bella Cucina — Full Stack Restaurant Website
+#  Bella Cucina — Full Stack Restaurant Website
 
-A complete, professional food delivery website built with 
-React + Node.js + Express + MongoDB.
+A complete, professional food delivery website built with React + Node.js + Express + MongoDB.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React.js, React Router, Axios
 - **Backend:** Node.js, Express.js
@@ -17,8 +16,10 @@ React + Node.js + Express + MongoDB.
 
 ## 📁 Project Structure
 
+```
 backend/   ← Node.js + Express API
 frontend/  ← React App
+```
 
 ---
 
@@ -39,38 +40,42 @@ frontend/  ← React App
 ## 🔌 API Endpoints
 
 ### Auth
-- POST /api/auth/register
-- POST /api/auth/login
+- `POST /api/auth/register`
+- `POST /api/auth/login`
 
 ### Menu
-- GET /api/menu
-- POST /api/menu (admin)
-- PUT /api/menu/:id (admin)
-- DELETE /api/menu/:id (admin)
+- `GET /api/menu`
+- `POST /api/menu` (admin)
+- `PUT /api/menu/:id` (admin)
+- `DELETE /api/menu/:id` (admin)
 
 ### Orders
-- POST /api/orders
-- GET /api/orders/myorders
+- `POST /api/orders`
+- `GET /api/orders/myorders`
 
 ### Admin
-- GET /api/admin/stats
-- GET /api/admin/orders
-- PUT /api/admin/orders/:id/status
+- `GET /api/admin/stats`
+- `GET /api/admin/orders`
+- `PUT /api/admin/orders/:id/status`
 
 ---
 
 ## ⚙️ Local Setup
 
 ### Backend
+```bash
 cd backend
 npm install
 cp .env.example .env
 npm run dev
+```
 
 ### Frontend
+```bash
 cd frontend
 npm install
 npm start
+```
 
 ---
 
