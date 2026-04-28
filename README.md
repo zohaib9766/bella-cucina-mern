@@ -17,8 +17,8 @@ React + Node.js + Express + MongoDB.
 
 ## 📁 Project Structure
 
-├── backend/   ← Node.js + Express API
-└── frontend/  ← React App
+backend/   ← Node.js + Express API
+frontend/  ← React App
 
 ---
 
